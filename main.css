@@ -1,0 +1,88 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	background: #2BC0E4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container {
+    margin-top: 10vh;
+    text-align: center;
+}
+h1 {
+    margin: 25px;
+    font-size: 48px;
+    outline: 3px;
+    outline-color: black;
+    color: white;
+}
+#input {
+    text-align: center;
+    margin: 25px;
+}
+input[type=text] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#convertBtn {
+    text-align: center;
+}
+#displayUserPartNumberHere {
+    display: inline;
+    padding: 25px;
+    text-align: center;
+    font-size: 36px;
+    color:white;
+}
+#displayPartNumberHere {
+    display: inline;
+    padding: 25px;
+    text-align: center;
+    font-size: 36px;
+    color: white;    
+}
+
