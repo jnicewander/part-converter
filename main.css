@@ -1,9 +1,10 @@
+html {
+	font-size: calc(1em + 1vw);
+}
 body {
 	font-family: 'Rubik', sans-serif;
-	background: #2BC0E4;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	width: 100%;
+
 }
 #container {
 	margin: 0 auto;
@@ -13,7 +14,7 @@ body {
 }
 h1 {
     margin: 35px;
-    font-size: 40px;
+    font-size: 1.5em;
     outline: 3px;
     color: white;
 }
@@ -39,7 +40,7 @@ h1 span {
 input[type=text] {
     width: 45%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 20px 0;
     text-align: center;
     box-shadow: 5px 10px #888888;
 }
@@ -99,16 +100,17 @@ input[type=text] {
     padding: 25px;
     text-align: center;
     font-size: 36px;
-    color: white;    
+    color: black;    
 }
 
 footer {
+	font-size: .5em;
 	text-align: center;
 	background-color: #666666;
+	padding: .1rem;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
-	height: 2.5rem; 
+	width: 100%; 
 }
