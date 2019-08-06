@@ -21,7 +21,7 @@ function userInput() {
     let wanted = document.getElementById("userTextInput").value;
     let formattedWanted = wanted.replace("-", "");
     document.getElementById("displayUserPartNumberHere").innerHTML = wanted;
-    result = map.get(formattedWanted);
+    let result = map.get(formattedWanted);
     document.getElementById("displayPartNumberHere").innerHTML = result;
     
 };

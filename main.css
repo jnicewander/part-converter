@@ -2,6 +2,7 @@ html {
 	font-size: calc(1em + 1vw);
 }
 body {
+	background-color: #01a525;
 	font-family: 'Rubik', sans-serif;
 	width: 100%;
 
@@ -89,11 +90,12 @@ input[type=text] {
     text-align: center;
 }
 #displayUserPartNumberHere {
-    display: inline;
+	display: inline;
+	margin: 25px;
     padding: 25px;
     text-align: center;
     font-size: 36px;
-    color:white;
+    color: black;
 }
 #displayPartNumberHere {
     display: inline;
