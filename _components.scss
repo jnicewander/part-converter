@@ -1,0 +1,29 @@
+.header {
+    box-shadow: 0 2px 4px #4c4c4c;
+
+    .title {
+        color: white;
+        background-color: black;
+    }
+}
+
+.input{
+    font-family: $font-body;
+
+    .input-field {
+        text-align: center;
+        font-size: 1.8em;
+        border: 2px solid #4c4c4c;
+        border-radius: 6px;
+    }
+
+    .submit-button {
+        color: #fff;
+        background-color: #64e986;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 6px;
+        font-family: $font-body;
+        font-size: 2em;
+    }
+}

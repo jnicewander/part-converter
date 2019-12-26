@@ -1,0 +1,22 @@
+//Variables
+$font-heading: 'Courier Prime', monospace;
+$font-body: 'Open Sans', sans-serif;
+
+
+// Global Resets
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-heading;
+    margin: 0;
+    padding: 0;
+}

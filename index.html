@@ -3,35 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>PCS Part Number Converter</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <div class="rotate">
-            <h1><span>&nbsp;The Unofficial PCS Competitor&nbsp;</span><br><span>&nbsp;Part Number Converter&nbsp;</span></h1>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">The Unofficial PCS Competitor<br> Part Number Converter</h1>
         </div>
         <!---<p>Test Input - THX15M14</p>--->
-        <div id="input">
-            <input id="userTextInput" type="text" name="Part Number Input" placeholder="Enter the part number you want to convert..." required>
+        <div class="input">
+            <input class="input-field" id="userTextInput" type="text" name="Part Number Input" placeholder="Enter the part number you want to convert..." required>
+            <button class="submit-button" onclick="userInput()">Convert</button>
         </div>
-        <div id="convertBtn">
-            <button class="myButton" onclick="userInput()">Convert</button>
-        </div>
-        <div>
+        <div class="display">
             <div id="displayUserPartNumberHere">
             </div>
             <div id="displayPartNumberHere">
             </div>
         </div>
-
+        <footer>
+            <p>This site created by - Justin Nicewander </p>
+        </footer>
     </div>
-    <footer>
-        <p>This site created by - Justin Nicewander </p>
-
-    </footer>
 </body>
 
 </html>
